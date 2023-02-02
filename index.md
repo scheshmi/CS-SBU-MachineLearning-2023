@@ -9,13 +9,13 @@ seo:
   name: Home
 ---
 
-# Neural Network Course
+# Machine Learning Course
 {: .mb-2 .text-green-000}
 
 Computer Science Faculty of Shahid Beheshti University. Winter 2023
 {: .fs-6 .fw-300 }
 
-![](https://abtinmy.github.io/CS-SBU-NeuralNetwork-2023/assets/images/site-banner.png)
+![](https://scheshmi.github.io/CS-SBU-MachineLearning-2023/assets/images/site-banner.JPG)
 
 The goal of our course is to provide students with a comprehensive understanding of the principles and techniques associated with neural networks, as well as the ability to apply these concepts to solve real-world problems. Our course will cover the fundamentals of neural networks, from the basics of training and backpropagation to more advanced topics such as convolutional neural networks, recurrent neural networks, and deep reinforcement learning. By the end of the course, students will be equipped with the knowledge and skills needed to apply neural networks to their own research and applications.
 
