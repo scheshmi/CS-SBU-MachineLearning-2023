@@ -1,4 +1,4 @@
-# Neural Network Course
+# Machine Learning Course
 
 Computer Science Faculty of Shahid Beheshti University. Winter 2023
 
