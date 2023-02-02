@@ -26,12 +26,12 @@ permalink: /resources/res
 - [An Introduction to Statistical Learning, Second Edition](https://www.statlearning.com/), 2021, by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani.
 - [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/), 2009, 2nd edition, by Trevor Hastie Robert Tibshirani, Jerome Friedman.
 - [Probabilistic Machine Learning - An Introduction](https://probml.github.io/pml-book/book1.html), 2021, by Kevin Patrick Murphy.
-- 
+- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (3rd edition)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/), 2022, by  Aurélien Géron.
 ---
 
 ## Courses
 - [CS229 - Machine Learning](https://see.stanford.edu/Course/CS229), Introduction to machine learning and statistical pattern recognition from Stanford.
-- [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) The Machine Learning Specialization is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online
+- [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) This is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online which covers fundamentals of machine learning
 
 ---
 
