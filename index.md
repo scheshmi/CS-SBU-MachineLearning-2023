@@ -26,6 +26,8 @@ Machine Learning is a rapidly evolving field that is currently revolutionizing t
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-xnda{border-color:#7a7fe5;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-qyqr{border-color:#7a7fe5;font-style:italic;font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-mz35{border-color:#7a7fe5;text-align:center;}
 </style>
 <table class="tg">
