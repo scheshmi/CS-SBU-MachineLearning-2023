@@ -11,7 +11,6 @@ description: Meet our awesome team members!
 Meet our awesome team members!
 {: .fs-6 .fw-300 }
 
-| If you're interested in joining or want some more information, please shoot us an email @ `abtinmahyar@gmail.com` and/or hop into a meeting! |
 
 ## Instructor
 
