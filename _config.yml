@@ -1,9 +1,9 @@
 # Setup
-title: Neural Networks
+title: Machine Learning
 tagline: CS SBU
-description: Neural Network Course of Computer Science Faculty of Shahid Beheshti University. Winter 2023
-baseurl: '/CS-SBU-NeuralNetwork-2023' # the subpath of your site, e.g. /blog
-url: 'https://abtinmy.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+description: Machine Learning Course of Computer Science Faculty of Shahid Beheshti University. Winter 2023
+baseurl: '/CS-SBU-MachineLearning-2023' # the subpath of your site, e.g. /blog
+url: 'https://scheshmi.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
@@ -13,7 +13,7 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-footer_content: Neural Network - Computer Science Faculty of Shahid Beheshti University. Winter 2023 - Contact us at abtinmahyar@gmail.com
+footer_content: Machine Learning - Computer Science Faculty of Shahid Beheshti University. Winter 2023 - Contact us at saeidcheshmi@outlook.com
 
 # Collections for website data
 collections:
