@@ -2,7 +2,7 @@
 title: Machine Learning
 tagline: CS SBU
 description: Machine Learning Course of Computer Science Faculty of Shahid Beheshti University. Winter 2023
-baseurl: '/CS-SBU-MachineLearning-2023' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://scheshmi.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 favicon_ico: "favicon.png"
