@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: Lectures 1
 parent: Lectures
 nav_order: 1
