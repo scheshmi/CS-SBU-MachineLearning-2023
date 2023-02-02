@@ -21,96 +21,94 @@ Machine Learning is a rapidly evolving field that is currently revolutionizing t
 
 ## Lectures
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-mz35{border-color:#7a7fe5;text-align:center;}
+.tg .tg-xnda{border-color:#7a7fe5;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-qyqr{border-color:#7a7fe5;font-style:italic;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-mz35{border-color:#7a7fe5;text-align:center;vertical-align:center}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-mz35"><span style="font-weight:bold">Week</span></th>
-    <th class="tg-mz35" colspan="2"><span style="font-weight:bold">Topic</span></th>
+    <th class="tg-xnda">Week</th>
+    <th class="tg-xnda" colspan="2">Topic</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mz35" rowspan="5"><span style="font-weight:bold;font-style:italic">1 - 4</span></td>
-    <td class="tg-mz35" rowspan="5">Introduction to Neural Networks</td>
-    <td class="tg-mz35">History</td>
+    <td class="tg-qyqr" rowspan="4">1-3</td>
+    <td class="tg-mz35" rowspan="4">Fundamentals of Statistics and Probability</td>
+    <td class="tg-mz35">Basics of Probability</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Biological intiuation</td>
+    <td class="tg-mz35">Various Distributions</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Perceptron</td>
+    <td class="tg-mz35">Statistics</td>
   </tr>
   <tr>
-    <td class="tg-mz35">MLP </td>
+    <td class="tg-mz35">Hypothesis Tests</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Backpropagation</td>
+    <td class="tg-qyqr" rowspan="4">4-5</td>
+    <td class="tg-mz35" rowspan="4">Regression</td>
+    <td class="tg-mz35">Linear Regression</td>
   </tr>
   <tr>
-    <td class="tg-mz35" rowspan="5"><span style="font-weight:bold;font-style:italic">5 - 7</span></td>
-    <td class="tg-mz35" rowspan="5">Enhancing Neural Networks</td>
-    <td class="tg-mz35">Optimization</td>
+    <td class="tg-mz35">Polynomial Regression</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Weight Initialization</td>
+    <td class="tg-mz35">Logistic Regression</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Activation Functions</td>
+    <td class="tg-mz35">LDA</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Learning Rate Scheduling</td>
+    <td class="tg-qyqr" rowspan="4">6-8</td>
+    <td class="tg-mz35" rowspan="4">Model Evaluation</td>
+    <td class="tg-mz35">Cross Validation</td>
+  </tr>
+  <tr>
+    <td class="tg-mz35">Bootstrapping</td>
+  </tr>
+  <tr>
+    <td class="tg-mz35">Feature Selection</td>
   </tr>
   <tr>
     <td class="tg-mz35">Regularization</td>
   </tr>
   <tr>
-    <td class="tg-mz35" rowspan="4"><span style="font-weight:bold;font-style:italic">8 - 11</span></td>
-    <td class="tg-mz35" rowspan="4">Convolutional Neural Networks</td>
-    <td class="tg-mz35">Convolution</td>
+    <td class="tg-qyqr">9-10</td>
+    <td class="tg-mz35" colspan="2">Support Vector Machine</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Basic Concepts</td>
+    <td class="tg-qyqr" rowspan="4">11-13</td>
+    <td class="tg-mz35" rowspan="4">Tree-Based Methods</td>
+    <td class="tg-mz35">Decision Tree</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Popular Architectures</td>
+    <td class="tg-mz35">Ensemble Learning</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Applications</td>
+    <td class="tg-mz35">Bagging</td>
   </tr>
   <tr>
-    <td class="tg-mz35" rowspan="4"><span style="font-weight:bold;font-style:italic">12 - 14</span></td>
-    <td class="tg-mz35" rowspan="4">Recurrent Neural Networks</td>
-    <td class="tg-mz35">Sequential Modeling</td>
+    <td class="tg-mz35">Boosting</td>
   </tr>
   <tr>
-    <td class="tg-mz35">Vanilla RNN</td>
+    <td class="tg-qyqr" rowspan="2">14-15</td>
+    <td class="tg-mz35" rowspan="2">Unsupervised Learning</td>
+    <td class="tg-mz35">PCA</td>
   </tr>
   <tr>
-    <td class="tg-mz35">BTT</td>
+    <td class="tg-mz35">Clustering</td>
   </tr>
   <tr>
-    <td class="tg-mz35">LSTM &amp; GRU</td>
-  </tr>
-  <tr>
-    <td class="tg-mz35" rowspan="4"><span style="font-weight:bold;font-style:italic">15 - 16</span></td>
-    <td class="tg-mz35" rowspan="4">Advanced Topics</td>
-    <td class="tg-mz35">Autoencoders</td>
-  </tr>
-  <tr>
-    <td class="tg-mz35">Variational Autoencoders</td>
-  </tr>
-  <tr>
-    <td class="tg-mz35">Image Captioning</td>
-  </tr>
-  <tr>
-    <td class="tg-mz35">Deep Reinforcement Learning</td>
+    <td class="tg-qyqr">16</td>
+    <td class="tg-mz35" colspan="2">Reinforcement Learning</td>
   </tr>
 </tbody>
 </table>
