@@ -26,6 +26,7 @@ permalink: /resources/res
 - [An Introduction to Statistical Learning, Second Edition](https://www.statlearning.com/), 2021, by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani.
 - [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/), 2009, 2nd edition, by Trevor Hastie Robert Tibshirani, Jerome Friedman.
 - [Probabilistic Machine Learning - An Introduction](https://probml.github.io/pml-book/book1.html), 2021, by Kevin Patrick Murphy.
+- 
 ---
 
 ## Courses
@@ -38,8 +39,6 @@ permalink: /resources/res
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown/) - some combination of math and entertainment. Difficult problems made simple with great animations.
 - [StatQuest](https://www.youtube.com/c/joshstarmer/) - breaks down the major methodologies into easy to understand pieces.
 
-
----
 
 
 
