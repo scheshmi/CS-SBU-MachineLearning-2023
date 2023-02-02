@@ -1,8 +1,57 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# Setup
+title: Neural Networks
+tagline: CS SBU
+description: Neural Network Course of Computer Science Faculty of Shahid Beheshti University. Winter 2023
+baseurl: '/CS-SBU-NeuralNetwork-2023' # the subpath of your site, e.g. /blog
+url: 'https://abtinmy.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-url: https://just-the-docs.github.io
-
+# Theme settings
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+color_scheme: custom
+search_enabled: true
+heading_anchors: true
+permalink: pretty
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+footer_content: Neural Network - Computer Science Faculty of Shahid Beheshti University. Winter 2023 - Contact us at abtinmahyar@gmail.com
+
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+plugins:
+  - jekyll-seo-tag
