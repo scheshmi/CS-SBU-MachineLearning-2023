@@ -26,7 +26,8 @@ permalink: /resources/res
 - [An Introduction to Statistical Learning, Second Edition](https://www.statlearning.com/), 2021, by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani.
 - [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/), 2009, 2nd edition, by Trevor Hastie Robert Tibshirani, Jerome Friedman.
 - [Probabilistic Machine Learning - An Introduction](https://probml.github.io/pml-book/book1.html), 2021, by Kevin Patrick Murphy.
-- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (3rd edition)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/), 2022, by  Aurélien Géron.
+- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/), 2022, 3rd edition, by  Aurélien Géron.
+
 ---
 
 ## Courses
