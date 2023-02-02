@@ -7,5 +7,3 @@ permalink: /lectures
 ---
 
 # Lectures
-
----
