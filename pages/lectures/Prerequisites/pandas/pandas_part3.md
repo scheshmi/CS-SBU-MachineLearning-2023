@@ -3,7 +3,7 @@ layout: default
 title: Pandas - Part 3
 parent: Prerequisites
 grand_parent: Lectures
-nav_order: 3
+nav_order: 4
 has_children: false
 permalink: /lectures/Prerequisites/pandas/pandas_part3
 ---

@@ -7,5 +7,5 @@ has_children: true
 permalink: /lectures/Prerequisites/Prerequisites
 ---
 
-## TEST
+## Prerequisites
 

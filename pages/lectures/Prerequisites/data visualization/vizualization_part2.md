@@ -1,3 +1,16 @@
+---
+layout: default
+title: Data Visualization - Part 2
+parent: Prerequisites
+grand_parent: Lectures
+nav_order: 6
+has_children: false
+permalink: /lectures/Prerequisites/data visualization/visualization_part2
+---
+
+
+
+
 ```python
 import numpy as np
 import pandas as pd

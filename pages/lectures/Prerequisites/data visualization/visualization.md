@@ -1,3 +1,16 @@
+---
+layout: default
+title: Data Visualization - Part 1
+parent: Prerequisites
+grand_parent: Lectures
+nav_order: 5
+has_children: false
+permalink: /lectures/Prerequisites/data visualization/visualization
+---
+
+
+
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
