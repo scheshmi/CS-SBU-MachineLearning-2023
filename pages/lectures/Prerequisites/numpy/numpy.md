@@ -4,7 +4,7 @@ title: Numpy
 parent: Prerequisites
 nav_order: 1
 has_children: false
-permalink: /lectures/Prerequisites/prerequisites/numpy
+permalink: /lectures/Prerequisites/numpy
 ---
 
 
