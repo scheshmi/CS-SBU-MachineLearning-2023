@@ -8,6 +8,14 @@ has_children: false
 permalink: /lectures/Prerequisites/pandas/pandas3
 ---
 
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pandas_part3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+
+
+
 
 <style type="text/css">
     pre { line-height: 125%; }
@@ -17444,3 +17452,5 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </body>
 
+
+</html>
