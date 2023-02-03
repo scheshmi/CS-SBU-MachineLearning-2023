@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Numpy
-parent: Prerequisites
+parent: prerequisites
 nav_order: 1
 has_children: false
 permalink: /lectures/Prerequisites/numpy
