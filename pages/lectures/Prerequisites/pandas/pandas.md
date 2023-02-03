@@ -4,7 +4,7 @@ title: Pandas - Part 1
 parent: Prerequisites
 nav_order: 1
 has_children: false
-permalink: /lectures/Prerequisites/pandas
+permalink: /lectures/Prerequisites/pandas/pandas
 ---
 
 
