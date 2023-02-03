@@ -61,6 +61,8 @@ permalink: /resources/res
 - [StatQuest](https://www.youtube.com/c/joshstarmer/) - breaks down the major methodologies into easy to understand pieces.
 - [Krish Naik](https://www.youtube.com/@krishnaik06)
 
+---
+
 ## Web pages
 - [Kaggle mini courses](https://www.kaggle.com/learn) - Gain the skills you need to do independent data science projects.
 - [Data Science course SBU, Fall 2021](https://sk7w4tch3r.github.io/CS-SBU-DataScience/) - This course is an introduction to data science. It is an overview of the latest primary knowledge and skills in the data science criteria, focusing on the basics of linear algebra, probability and statistics, first steps of working with data, data wrangling, exploratory data analysis, visualization techniques, and the essentials of supervised learning, time series analysis, and unsupervised methods. There are no particular prerequisites, and we tried to cover everything to our potential.
