@@ -53,6 +53,7 @@ permalink: /resources/res
 - [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
 - [Linear Algebra - MIT](https://youtube.com/playlist?list=PL49CF3715CB9EF31D), Gilbert Strang
 - [Pandas Bootcamp - Udemy](https://www.udemy.com/course/the-pandas-bootcamp/)
+
 ---
 
 ## Videos
