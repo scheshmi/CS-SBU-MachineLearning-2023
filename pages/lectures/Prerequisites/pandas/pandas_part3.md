@@ -21,7 +21,7 @@ permalink: /lectures/Prerequisites/pandas/pandas_part3
 import pandas as pd
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/1.png)
 
 
 ```python
@@ -564,7 +564,7 @@ men2008.head()
 men2008.shape
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/2.png)
 
 
 ```python
@@ -586,7 +586,7 @@ men0408 = men2004.merge(men2008, how = "outer", on = "Athlete", suffixes= ("_200
 men0408._merge.value_counts()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/3.png)
 
 
 ```python
@@ -605,7 +605,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/4.png)
 
 
 ```python
@@ -629,7 +629,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/5.png)
 
 
 ```python
@@ -658,7 +658,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/6.png)
 
 
 ```python
@@ -692,7 +692,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/7.png)
 
 
 ```python
@@ -721,7 +721,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/8.png)
 
 
 ```python
@@ -745,7 +745,7 @@ men2004.head()
 men2008.head()
 ```
 
-![image.png](attachment:image.png)
+![image.png](pandas_part3_files/9.png)
 
 
 ```python
