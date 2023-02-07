@@ -9,3 +9,5 @@ permalink: /resources/slides
 
 # Slides
 
+
+- [Introduction](slides/)
