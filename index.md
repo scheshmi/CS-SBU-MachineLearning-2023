@@ -114,5 +114,4 @@ Machine Learning is a rapidly evolving field that is currently revolutionizing t
   </tr>
 </tbody>
 </table>
----
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+
