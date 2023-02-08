@@ -13,6 +13,8 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  Repo on GitHub:
+    - 'https://github.com/scheshmi/CS-SBU-MachineLearning-2023'
 footer_content: Machine Learning - Computer Science Faculty of Shahid Beheshti University. Winter 2023 - Contact us at saeidcheshmi@outlook.com
 
 # Collections for website data
