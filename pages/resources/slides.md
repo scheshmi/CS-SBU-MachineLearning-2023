@@ -9,7 +9,7 @@ permalink: /resources/slides
 
 # Slides
 
-- [Statistics & Probability]()
+- [Statistics & Probability](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/slides/Stats%20%26%20Probability.rar)
 - [Introduction](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/slides/1-introduction-handout.pdf)
 - [Linear Regression](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/slides/2-linear_regression-handout.pdf)
 - [Logistic Regression](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/slides/3-classification-handout.pdf)
