@@ -25,7 +25,7 @@ schedule:
         location: Bachelor
       - name: Statistical Machine Learning
         start: 10:30 AM
-        end: 12:30 AM
+        end: 12:30 PM
         location: Master
   - name: Monday
   - name: Tuesday
@@ -36,7 +36,7 @@ schedule:
         location: Bachelor
       - name: Statistical Machine Learning
         start: 10:30 AM
-        end: 12:30 AM
+        end: 12:30 PM
         location: Master
   - name: Wednesday
 ---
