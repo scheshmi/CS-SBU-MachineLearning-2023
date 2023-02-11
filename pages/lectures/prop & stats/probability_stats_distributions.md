@@ -78,7 +78,9 @@ $$P(B|A) = P(B)$$
 
 $$P(A\cap B) = P(A)P(B)$$
 
-If an event $$B$$ is contained within a sample space $$A$$, then we have $$P(B) = \sum_{i=1}^{n}P(A_i)P(B|A_i)$$
+If an event $$B$$ is contained within a sample space $$A$$, then we have:
+
+$$P(B) = \sum_{i=1}^{n}P(A_i)P(B | A_i)$$
 
 The Bayes' Theorem:
 
