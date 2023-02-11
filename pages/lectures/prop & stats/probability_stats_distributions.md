@@ -72,11 +72,11 @@ $$P(A_1 \cap \dots \cap A_n) = P(A_1)P(A_1|A_2)P(A_3|A_1\cap A_2)\dots P(A_n|A_1
 
 **Independent**: One event's occur would not affect another event. 
 
-1. $$P(A|B) = P(A)$$
+$$P(A|B) = P(A)$$
 
-2. $$P(B|A) = P(B)$$
+$$P(B|A) = P(B)$$
 
-3. $$P(A\cap B) = P(A)P(B)$$
+$$P(A\cap B) = P(A)P(B)$$
 
 If an event $$B$$ is contained within a sample space $$A$$, then we have $$P(B) = \sum_{i=1}^{n}P(A_i)P(B|A_i)$$
 
