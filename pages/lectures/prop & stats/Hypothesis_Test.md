@@ -131,34 +131,6 @@ The lowest value of the probability of type 1 error (test level) that can be fou
 ![image.png](hypothesis_test_images/9.png)
 
 
-```python
-from google.colab import drive
-drive.mount('/gdrive')
-```
-
-    Mounted at /gdrive
-    
-
-
-```python
-! pip install scipy==1.6.2
-```
-
-    Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
-    Collecting scipy==1.6.2
-      Downloading scipy-1.6.2-cp38-cp38-manylinux1_x86_64.whl (27.2 MB)
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m27.2/27.2 MB[0m [31m36.6 MB/s[0m eta [36m0:00:00[0m
-    [?25hRequirement already satisfied: numpy<1.23.0,>=1.16.5 in /usr/local/lib/python3.8/dist-packages (from scipy==1.6.2) (1.21.6)
-    Installing collected packages: scipy
-      Attempting uninstall: scipy
-        Found existing installation: scipy 1.7.3
-        Uninstalling scipy-1.7.3:
-          Successfully uninstalled scipy-1.7.3
-    Successfully installed scipy-1.6.2
-    
-
-
-```python
 import scipy
 print(scipy.__version__)
 ```
@@ -178,20 +150,7 @@ from scipy import stats
 
 
 ```python
-# https://drive.google.com/drive/folders/1kvDhM7-XsXhk-AmTrWd-823WpbazWu9D?usp=sharing
-root = '/gdrive/My Drive/Loop Accademy workshop/'
-! ls '/gdrive/My Drive/Loop Accademy workshop'
-```
-
-    bigmac.csv	    foods.csv		    nba.csv	     revenue.csv
-    blood_pressure.csv  fortune1000.csv	    PlantGrowth.csv  salesmen.csv
-    chi-test.csv	    google_stock_price.csv  pokemon.csv      ted.csv
-    employees.csv	    jamesbond.csv	    quarters.csv
-    
-
-
-```python
-df = pd.read_csv(root + 'foods.csv')
+df = pd.read_csv('foods.csv')
 df.head()
 ```
 
