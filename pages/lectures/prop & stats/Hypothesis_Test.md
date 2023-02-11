@@ -16,11 +16,15 @@ In statistics, interval estimation is the use of sample data to estimate an inte
 We hold study with 200 participates. This study shows that men on average over 15.7 hours reading books. If the error range for this study is 2.2 hours. Calculate the confidence interval with a certainty level 95%.
 
 
-<div style="text-align: center;">
 
-![image.png](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/pages/lectures/prop%20%26%20stats/hypothesis_test_images/1.png)
-
-</div>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%;"
+    src="hypothesis_test_images/1.png" 
+    >
+</img>
 
 Now we can say with 95% confidence that the average of this sample is between 13.5 and 17.9.
 
@@ -63,7 +67,7 @@ Based on that, another level is also defined, which is called a meaningful level
 
 #  two-tailed (two-sided) tests
 
-Consider a situation where we want to test the **null hypothesis** $𝐻_0$: $\theta$ = $\theta_0 $ against the opposite (alternative) two-sided hypothesis $𝐻_1$: $\theta$ $\neq$ $\theta_0$ ($\theta$> $\theta_0$, $\theta$< $\theta_0$).
+Consider a situation where we want to test the **null hypothesis** $𝐻_0$: $\theta$ = $\theta_0$ against the opposite (alternative) two-sided hypothesis $𝐻_1$: $\theta$ $\neq$ $\theta_0$ ($\theta$> $\theta_0$, $\theta$< $\theta_0$).
 
 It seems reasonable to accept the null hypothesis when the point estimate $\hat \theta$ for the parameter $\theta$ is close to $\theta_0$ and to reject it when $\hat \theta$ is much larger or smaller than $\theta_0$.
 
