@@ -39,11 +39,11 @@ In the science of statistics, it is a method to investigate claims or assumption
 
 **Example:** A pharmaceutical company claims that their drug for cancer has significantly prevented the spread of cancer, and 80% of users have not had a particular cancer develop in them.
 
-## Null Hypothesis $(H_0)$
+## Null Hypothesis $$(H_0)$$
 
 Current values we accept for parameters.
 
-## Alternative Hypothesis ($𝑯_𝒂$  , $𝑯_𝟏$)
+## Alternative Hypothesis ($$𝑯_𝒂$$  , $$𝑯_𝟏$$)
 
 Sometimes it is also called a research hypothesis and it includes a claim that we want to investigate.
 
@@ -59,17 +59,17 @@ Based on that, another level is also defined, which is called a meaningful level
 
 #  two-tailed (two-sided) tests
 
-Consider a situation where we want to test the **null hypothesis** $𝐻_0$: $\theta$ = $\theta_0$ against the opposite (alternative) two-sided hypothesis $𝐻_1$: $\theta$ $\neq$ $\theta_0$ ($\theta$> $\theta_0$, $\theta$< $\theta_0$).
+Consider a situation where we want to test the **null hypothesis** $$𝐻_0$$: $$\theta$$ = $$\theta_0$$ against the opposite (alternative) two-sided hypothesis $$𝐻_1$$: $$\theta$$ $$\neq$$ $$\theta_0$$ ($$\theta$$> $$\theta_0$$, $$\theta$$< $$\theta_0$$).
 
-It seems reasonable to accept the null hypothesis when the point estimate $\hat \theta$ for the parameter $\theta$ is close to $\theta_0$ and to reject it when $\hat \theta$ is much larger or smaller than $\theta_0$.
+It seems reasonable to accept the null hypothesis when the point estimate $$\hat \theta$$ for the parameter $$\theta$$ is close to $$\theta_0$$ and to reject it when $$\hat \theta$$ is much larger or smaller than $$\theta_0$$.
 
 We call tests with the above situation two-tailed (two-sided) tests.
 
 # one-tailed (one-sided) tests
 
-Consider a situation where we want to test the null hypothesis $𝐻_0$: $\theta$ $\leq$ $\theta_0$ against the opposite (alternative) one-sided hypothesis $𝐻_1$: $\theta$>$\theta_0$.
+Consider a situation where we want to test the null hypothesis $$𝐻_0$$: $$\theta$$ $$\leq$$ $$\theta_0$$ against the opposite (alternative) one-sided hypothesis $$𝐻_1$$: $$\theta$$>$$\theta_0$$.
 
-It seems reasonable to reject the null hypothesis when the point estimate 𝜃̂ for the parameter $\theta$ is much larger than $\theta_0$.
+It seems reasonable to reject the null hypothesis when the point estimate 𝜃̂ for the parameter $$\theta$$ is much larger than $$\theta_0$$.
 
 
 We call tests with the above situation one-tailed (one-sided) tests.
@@ -86,9 +86,9 @@ We call tests with the above situation one-tailed (one-sided) tests.
 
 # Steps of an assumption test:
 
-1- Formulating the null hypothesis $𝐻_0$ and the reciprocal hypothesis $𝐻_1$ and determining $\alpha$
+1- Formulating the null hypothesis $$𝐻_0$$ and the reciprocal hypothesis $$𝐻_1$$ and determining $$\alpha$$
 
-2- Determine the critical region $\alpha$ by using the sampling distribution, the appropriate test statistic.
+2- Determine the critical region $$\alpha$$ by using the sampling distribution, the appropriate test statistic.
 
 3- Determine the value of the test statistic from the sample data.
 
@@ -98,7 +98,7 @@ We call tests with the above situation one-tailed (one-sided) tests.
 
 ![image.png](hypothesis_test_images/4.png)
 
-**Example 1)** A device pours an average of 2 liters of soda into the glasses. After repairing this machine, the management thinks that the machine is not working properly. If the average of a sample of 20 is equal to 2.10 liters and the standard deviation is equal to 0.33, it is desirable to investigate the claim with a significance level of $\alpha$=𝟎.𝟎𝟏
+**Example 1)** A device pours an average of 2 liters of soda into the glasses. After repairing this machine, the management thinks that the machine is not working properly. If the average of a sample of 20 is equal to 2.10 liters and the standard deviation is equal to 0.33, it is desirable to investigate the claim with a significance level of $$\alpha$$=𝟎.𝟎𝟏
 
 ![image.png](hypothesis_test_images/5.png)
 
@@ -276,7 +276,7 @@ df.head()
 
 
 
-# q1 : People spend average 60 $ for food
+# q1 : People spend average 60 $$ for food
 
 
 $$H_0:\mu = 60 $$
