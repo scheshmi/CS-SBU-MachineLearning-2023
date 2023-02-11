@@ -130,7 +130,7 @@ The lowest value of the probability of type 1 error (test level) that can be fou
 
 ![image.png](hypothesis_test_images/9.png)
 
-
+```python
 import scipy
 print(scipy.__version__)
 ```
