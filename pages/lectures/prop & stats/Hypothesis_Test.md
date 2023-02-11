@@ -15,7 +15,12 @@ In statistics, interval estimation is the use of sample data to estimate an inte
 
 We hold study with 200 participates. This study shows that men on average over 15.7 hours reading books. If the error range for this study is 2.2 hours. Calculate the confidence interval with a certainty level 95%.
 
+
+<div style="text-align: center;">
+
 ![image.png](hypothesis_test_images/1.png)
+
+</div>
 
 Now we can say with 95% confidence that the average of this sample is between 13.5 and 17.9.
 
