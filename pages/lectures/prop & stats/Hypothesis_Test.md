@@ -18,7 +18,7 @@ We hold study with 200 participates. This study shows that men on average over 1
 
 <div style="text-align: center;">
 
-![image.png](hypothesis_test_images/1.png)
+![image.png](https://github.com/scheshmi/CS-SBU-MachineLearning-2023/blob/main/pages/lectures/prop%20%26%20stats/hypothesis_test_images/1.png)
 
 </div>
 
