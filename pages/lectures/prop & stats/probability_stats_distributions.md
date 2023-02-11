@@ -16,69 +16,69 @@ Probability is a branch of mathematics that deals with the study of random event
 
 **Experiment**: Any process or procedure for which more than one outcome is possible. 
 
-**Sample Space** $S$: All the possible outcomes. 
+**Sample Space** $$S$$: All the possible outcomes. 
 
-**Probability** $P(x_i)$ meet the requirement: $0\leq p_i\leq 1, i=1, 2, \dots, n$ and $p_1 + p_2 + \dots + p_n = 1$.
+**Probability** $$P(x_i)$$ meet the requirement: $$0\leq p_i\leq 1, i=1, 2, \dots, n$$ and $$p_1 + p_2 + \dots + p_n = 1$$.
 
-**Event** $A$: An event is a subset of the sample space. The probability of an event is obtained by the probabilities of the outcomes contained within the event.
+**Event** $$A$$: An event is a subset of the sample space. The probability of an event is obtained by the probabilities of the outcomes contained within the event.
 
 $$P(A) = \sum P(x), x\in A$$
 
-**Complements of envents** $A'$: Everything in the sample space not contained within event. 
+**Complements of envents** $$A'$$: Everything in the sample space not contained within event. 
 
 $$P(A)+P(A')=1$$
 
 **Elementary event**: An event only contains one individual outcome. 
 
-**Intersection** $A\cap B$: Outcomes within both events $A$ and $B$.
+**Intersection** $$A\cap B$$: Outcomes within both events $$A$$ and $$B$$.
 
-**Union** $A\cup B$: Outcomes within event $A$ or event $B$.
+**Union** $$A\cup B$$: Outcomes within event $$A$$ or event $$B$$.
 
-$A\cap (B\cap C) = (A\cap B)\cap C$
+$$A\cap (B\cap C) = (A\cap B)\cap C$$
 
-$P(A\cup B) = P(A) + P(B) - P(A\cap B)$
+$$P(A\cup B) = P(A) + P(B) - P(A\cap B)$$
 
-$P(A\cup B) = P(A\cap B') + P(A'\cap B) + P(A\cap B)$
+$$P(A\cup B) = P(A\cap B') + P(A'\cap B) + P(A\cap B)$$
 
-$(A\cup B)' = A' \cap B'$
+$$(A\cup B)' = A' \cap B'$$
 
-$(A\cap B)' = A' \cup B'$
+$$(A\cap B)' = A' \cup B'$$
 
-$(A\cup B\cup C) = A + B + C - (A\cap B) - (B\cap C) - (C\cap A) + (A\cap B\cap C)$
+$$(A\cup B\cup C) = A + B + C - (A\cap B) - (B\cap C) - (C\cap A) + (A\cap B\cap C)$$
 
-**Intersection** $A\cap B$: Outcomes within both events $A$ and $B$.
+**Intersection** $$A\cap B$$: Outcomes within both events $$A$$ and $$B$$.
 
-**Union** $A\cup B$: Outcomes within event $A$ or event $B$.
+**Union** $$A\cup B$$: Outcomes within event $$A$$ or event $$B$$.
 
-$A\cap (B\cap C) = (A\cap B)\cap C$
+$$A\cap (B\cap C) = (A\cap B)\cap C$$
 
-$P(A\cup B) = P(A) + P(B) - P(A\cap B)$
+$$P(A\cup B) = P(A) + P(B) - P(A\cap B)$$
 
-$P(A\cup B) = P(A\cap B') + P(A'\cap B) + P(A\cap B)$
+$$P(A\cup B) = P(A\cap B') + P(A'\cap B) + P(A\cap B)$$
 
-$(A\cup B)' = A' \cap B'$
+$$(A\cup B)' = A' \cap B'$$
 
-$(A\cap B)' = A' \cup B'$
+$$(A\cap B)' = A' \cup B'$$
 
-$(A\cup B\cup C) = A + B + C - (A\cap B) - (B\cap C) - (C\cap A) + (A\cap B\cap C)$
+$$(A\cup B\cup C) = A + B + C - (A\cap B) - (B\cap C) - (C\cap A) + (A\cap B\cap C)$$
 
-$P(A|B) = \frac{P(A\cap B)}{P(B)}, P(B)>0$
+$$P(A|B) = \frac{P(A\cap B)}{P(B)}, P(B)>0$$
 
-$P(A|B) = \frac{P(A\cap B)}{P(B)} \Longrightarrow P(A\cap B) = P(B)P(A|B)$
+$$P(A|B) = \frac{P(A\cap B)}{P(B)} \Longrightarrow P(A\cap B) = P(B)P(A|B)$$
 
-$P(A|B\cap C) = \frac{P(A\cap B\cap C)}{P(B\cap C)} \Longrightarrow P(A\cap B\cap C) = P(B\cap C)P(A|B\cap C)$
+$$P(A|B\cap C) = \frac{P(A\cap B\cap C)}{P(B\cap C)} \Longrightarrow P(A\cap B\cap C) = P(B\cap C)P(A|B\cap C)$$
 
-$P(A_1 \cap \dots \cap A_n) = P(A_1)P(A_1|A_2)P(A_3|A_1\cap A_2)\dots P(A_n|A_1\cap \dots \cap A_{n-1})$
+$$P(A_1 \cap \dots \cap A_n) = P(A_1)P(A_1|A_2)P(A_3|A_1\cap A_2)\dots P(A_n|A_1\cap \dots \cap A_{n-1})$$
 
 **Independent**: One event's occur would not affect another event. 
 
-1. $P(A|B) = P(A)$
+1. $$P(A|B) = P(A)$$
 
-2. $P(B|A) = P(B)$
+2. $$P(B|A) = P(B)$$
 
-3. $P(A\cap B) = P(A)P(B)$
+3. $$P(A\cap B) = P(A)P(B)$$
 
-If an event $B$ is contained within a sample space $A$, then we have $P(B) = \sum_{i=1}^{n}P(A_i)P(B|A_i)$
+If an event $$B$$ is contained within a sample space $$A$$, then we have $$P(B) = \sum_{i=1}^{n}P(A_i)P(B|A_i)$$
 
 The Bayes' Theorem:
 
@@ -86,19 +86,19 @@ $$P(A_i|B) = \frac{P(A_i)P(B|A_i)}{\sum_{j=1}^{n}P(A_j)P(B|A_j)}$$
 
 # Random Variables
 
-**Random variable** $X: S\to R$, from sample spcae to real line (as the domian of probability function).
+**Random variable** $$X: S\to R$$, from sample spcae to real line (as the domian of probability function).
 
-**Probability functions** $P(x): R\to [0, 1]$, from real line to the value of probabiliy. 
+**Probability functions** $$P(x): R\to [0, 1]$$, from real line to the value of probabiliy. 
 
 Discrete random variables
 - Probability Mass Function (**p.m.f.**)
 - Cumulative Distribution Function (**c.d.f.**)
-- Expectation $E(X) = \sum_i p_ix_i$
+- Expectation $$E(X) = \sum_i p_ix_i$$
 
 Continous random variables
 - Probability Density Function (p.d.f.)
 - Cumulative Distribution Function (c.d.f.)
-- Expectation $E(X) = \int_{-\infty}^{\infty}xf(x)dx$
+- Expectation $$E(X) = \int_{-\infty}^{\infty}xf(x)dx$$
 
 Variance of random variables
 
@@ -130,13 +130,13 @@ print('Standard Variance: {:.4f}'.format(var ** (1/2)))
     
 
 Quantiles of Random Variables
-- Upper quartile $Q_3$: c.d.f. = 0.75
-- Lower quartile $Q_1$: c.d.f. = 0.25
-- Interquartile range $IQR$: $Q_3 - Q_1$
+- Upper quartile $$Q_3$$: c.d.f. = 0.75
+- Lower quartile $$Q_1$$: c.d.f. = 0.25
+- Interquartile range $$IQR$$: $$Q_3 - Q_1$$
 
-$Cov(X, Y) = E(XY) - E(X)E(Y)$
+$$Cov(X, Y) = E(XY) - E(X)E(Y)$$
 
-$Corr(X, Y) = \frac{Cov(X, Y)}{\sqrt{Var(X)Var(Y)}}$
+$$Corr(X, Y) = \frac{Cov(X, Y)}{\sqrt{Var(X)Var(Y)}}$$
 
 
 
@@ -196,17 +196,17 @@ print('EXP X\t {:.4f}\nEXP Y\t {:.4f}\nVAR X\t {:.4f}\nVAR Y\t \
     CORR	 0.6667
     
 
-$E(aX+b) = aE(X) + b$
+$$E(aX+b) = aE(X) + b$$
 
-$E(X_1+X_2) = E(X_1) + E(X_2)$
+$$E(X_1+X_2) = E(X_1) + E(X_2)$$
 
-$E(\bar{X}) = E(X)$
+$$E(\bar{X}) = E(X)$$
 
-$Var(aX+b) = a^2Var(X)$
+$$Var(aX+b) = a^2Var(X)$$
 
-$Var(X_1+X_2) = Var(X_1) + Var(X_2) + 2Cov(X_1, X_2)$
+$$Var(X_1+X_2) = Var(X_1) + Var(X_2) + 2Cov(X_1, X_2)$$
 
-$Var(\bar{X}) = \frac{\sigma^2}{n}$
+$$Var(\bar{X}) = \frac{\sigma^2}{n}$$
 
 # Distributions
 
@@ -355,9 +355,11 @@ plt.show()
 
 ## 3. Binomial Distribution:
 The Binomial distribution is a discrete distribution that models the number of successes in a fixed number of Bernoulli trials. It is characterized by two parameters: n, the number of trials, and p, the probability of success in each trial. The probability mass function of the Binomial distribution is given by:
+
 $$ 
 f(x) = \binom{n}{x} p^x (1-p)^{n-x}
 $$
+
 It is used in many areas of machine learning, such as logistic regression, recommendation systems, and deep learning.
 
 
@@ -384,12 +386,14 @@ plt.show()
 
 ## 4. Uniform Distribution:
 The uniform distribution is a continuous distribution that models data that is evenly distributed over a range. It is characterized by two parameters: a, the lower bound of the range, and b, the upper bound of the range. The probability density function of the uniform distribution is given by:
+
 $$
 f(x) = \begin{cases}
 \frac{1}{b-a} & \text{if } a \le x \le b \\
 0 & \text{otherwise}
 \end{cases}
 $$
+
 It is used in many areas of machine learning, such as hypothesis testing and random number generation.
 
 
@@ -415,9 +419,11 @@ plt.show()
 
 ## 5. Log-Normal Distribution:
 The log-normal distribution is a continuous distribution that models data that is log-normally distributed. It is characterized by two parameters: mean (μ) and standard deviation (σ). The probability density function of the log-normal distribution is given by:
+
 $$
 f(x) = \frac{1}{x \sigma \sqrt{2 \pi}} e^{-\frac{(\ln x - \mu)^2}{2 \sigma^2}}
 $$
+
 It is used in many areas of machine learning, such as hypothesis testing and modeling data with heavy tails.
 
 
@@ -444,9 +450,11 @@ plt.show()
 
 ## 6. Exponential Distribution:
 The exponential distribution is a continuous distribution that models the time between events in a Poisson process. It is characterized by a single parameter λ, which is the rate at which events occur. The probability density function of the exponential distribution is given by:
+
 $$
 f(x) = \lambda e^{-\lambda x}
 $$
+
 It is used in many areas of machine learning, such as hypothesis testing and survival analysis.
 
 
@@ -471,9 +479,11 @@ plt.show()
 
 ## 7. Gamma Distribution:
 The gamma distribution is a continuous distribution that models the time between events in a Poisson process with an arrival rate that changes over time. It is characterized by two parameters: shape (α) and scale (β). The probability density function of the gamma distribution is given by:
+
 $$
 f(x) = \frac{x^{\alpha - 1} e^{-x/\beta}}{\beta^\alpha \Gamma(\alpha)}
 $$
+
 where Γ is the gamma function. It is used in many areas of machine learning, such as hypothesis testing and survival analysis.
 
 
@@ -499,6 +509,7 @@ plt.show()
 
 ## 8. Chi-Squared Distribution:
 The chi-squared distribution is a continuous distribution that models the sum of the squares of k independent standard normal random variables. It is characterized by a single parameter: degrees of freedom (k). The probability density function of the chi-squared distribution is given by:
+
 $$
 f(x) = \frac{x^{\frac{\nu}{2} - 1} e^{-\frac{x}{2}}} {2^{\frac{\nu}{2}} \Gamma(\frac{\nu}{2})}
 $$
@@ -527,9 +538,11 @@ plt.show()
 
 ## 9. Student's t-Distribution:
 The Student's t-distribution is a continuous distribution that models the distribution of the ratio of the mean of a normally distributed random sample and its standard deviation, where the sample size is small. It is characterized by a single parameter: degrees of freedom (k). The probability density function of the Student's t-distribution is given by:
+
 $$
 f(x) = \frac{\Gamma(\frac{\nu + 1}{2})} {\sqrt{\nu \pi} \Gamma(\frac{\nu}{2})} \left( 1 + \frac{x^2}{\nu} \right)^{-\frac{\nu + 1}{2}}
 $$
+
 It is used in many areas of machine learning, such as hypothesis testing and estimation with small sample sizes.
 
 
@@ -555,9 +568,11 @@ plt.show()
 
 ## 10. F-Distribution:
 The F-distribution is a continuous distribution that models the ratio of two chi-squared distributions. It is characterized by two parameters: degrees of freedom in the numerator (k1) and degrees of freedom in the denominator (k2). The probability density function of the F-distribution is given by:
+
 $$
 f(x) = \frac{\left(\frac{v_1}{v_2}\right)^{\frac{v_1}{2}} x^{\frac{v_1}{2} - 1}}{\left( 1 + \frac{v_1}{v_2} x \right)^{\frac{v_1 + v_2}{2}}} \frac{\Gamma\left(\frac{v_1 + v_2}{2}\right)}{\Gamma\left(\frac{v_1}{2}\right) \Gamma\left(\frac{v_2}{2}\right)}
 $$
+
 It is used in many areas of machine learning, such as hypothesis testing and goodness-of-fit testing.
 
 
@@ -583,9 +598,11 @@ plt.show()
 
 ## 11. Beta Distribution:
 The beta distribution is a continuous distribution that models the probability of a random variable in the interval (0,1). It is characterized by two parameters: shape parameters (α, β). The probability density function of the beta distribution is given by:
+
 $$
 f(x) = x^{\alpha - 1} (1 - x)^{\beta - 1} \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha) \Gamma(\beta)}
 $$
+
 where B(α, β) is the beta function. It is used in many areas of machine learning, such as Bayesian inference and modeling of random variables with limited support.
 
 
@@ -612,9 +629,11 @@ plt.show()
 
 ## 12. Poisson Distribution:
 The Poisson distribution is a discrete distribution that models the number of events in a fixed interval of time or space, where the average number of events is known. It is characterized by a single parameter: the average number of events per interval (λ). The probability mass function of the Poisson distribution is given by:
+
 $$
 f(k) = \frac{e^{-\lambda} \lambda^k}{k!}
 $$
+
 It is used in many areas of machine learning, such as modeling count data and calculating the probability of a certain number of events occurring.
 
 
