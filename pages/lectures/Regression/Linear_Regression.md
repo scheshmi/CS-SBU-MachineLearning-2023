@@ -57,10 +57,9 @@ There are 3 types of Gradient Descent:
 We will implement Linear Regression model using gradient descent from scratch. *Gradient Descent* was described as
 
 $$
-\begin{align*} \text{repeat}&\text{ until convergence:} \; \lbrace \newline
+\text{repeat}&\text{ until convergence:} \; \lbrace \newline
 \;  w &= w -  \alpha \frac{\partial J(w,b)}{\partial w} \tag{3}  \; \newline
  b &= b -  \alpha \frac{\partial J(w,b)}{\partial b}  \newline \rbrace
-\end{align*}
 $$
 
 where, parameters $$w$$, $$b$$ are updated simultaneously.
@@ -68,10 +67,8 @@ where, parameters $$w$$, $$b$$ are updated simultaneously.
 The gradient is defined as:
 
 $$
-\begin{align}
 \frac{\partial J(w,b)}{\partial w}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)} \tag{4}\\
   \frac{\partial J(w,b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)}) \tag{5}\\
-\end{align}
 $$
 
 Here *simultaniously* means that you calculate the partial derivatives for all the parameters before updating any of the parameters.
