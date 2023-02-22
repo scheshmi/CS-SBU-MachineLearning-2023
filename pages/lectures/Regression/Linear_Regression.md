@@ -13,7 +13,7 @@ permalink: /lectures/Regression/Linear_Regression
 # Linear Regression
 
 Linear regression is a statistical method used to analyze the relationship between two variables, where one variable is considered as the independent variable and the other variable is considered as the dependent variable. The objective of linear regression is to find the best-fit line that can accurately predict the dependent variable given the independent variable.
-The formula for linear regression is $y$ = $\beta_0$ + $\beta_1$ $x$, where $y$ is the dependent variable, $x$ is the independent variable,  $\beta_0$ is the intercept, and $\beta_1$ is the coefficient of $x$. The intercept represents the value of $y$ when $x$ is equal to zero, and the coefficient represents the change in $y$ for each unit increase in $x$.
+The formula for linear regression is $$y$$ = $$\beta_0$$ + $$\beta_1$$ $$x$$, where $y$ is the dependent variable, $x$ is the independent variable,  $\beta_0$ is the intercept, and $\beta_1$ is the coefficient of $x$. The intercept represents the value of $y$ when $x$ is equal to zero, and the coefficient represents the change in $y$ for each unit increase in $x$.
 
 Linear regression can be used for various purposes, such as predicting sales, analyzing trends, and identifying relationships between variables. It is a powerful tool that can help in making informed decisions and predictions based on data analysis.
 
@@ -23,7 +23,8 @@ MSE cost function for a linear regression model :
 
 $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2\tag{1}$$ 
 
-where 
+where
+
   $$f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{2}$$
 
 ## Gradient Descent
