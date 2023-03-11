@@ -35,7 +35,7 @@ Why would you want to use:
 - Lasso instead of ridge regression?
 - Elastic net instead of lasso regression?
 
-**Exercise 5****
+**Exercise 5**
 
 Implement Linear Regression with **Mean Absolute Error** as the cost function from scratch. Compare your results with the Linear Regression module of **Scikit-Learn**.
 
@@ -53,7 +53,9 @@ Explain nested cross-validation and 5x2 cross-validation in detail and when we s
 
 **Exercise 9 *(Extra Point)***
 
-How can we compare different models using statistical significance tests? **Exercise 10**
+How can we compare different models using statistical significance tests?
+
+**Exercise 10**
 
 Implement Forward and Backward Feature selection algorithms from scratch with MSE as the metric.
 
@@ -61,9 +63,9 @@ Implement Forward and Backward Feature selection algorithms from scratch with MS
 
 Suppose the features in your training set have very different scales. Which algorithms *(Gradient Descent, Normal Equation, SVD)* might suffer from this, and how? What can you do about it?
 
-**Exercise 12****
+**Exercise 12**
 
-In this part, you are going to work with the **[News Popularity Prediction** ](https://archive.ics.uci.edu/ml/datasets/online+news+popularity)**dataset. You will implement a regression model using the **Scikit-Learn** package to predict the *popularity of new articles (the number of times they will be shared online)* based on about 60 features. You are expected:
+In this part, you are going to work with the **[News Popularity Prediction](https://archive.ics.uci.edu/ml/datasets/online+news+popularity)** dataset. You will implement a regression model using the **Scikit-Learn** package to predict the *popularity of new articles (the number of times they will be shared online)* based on about 60 features. You are expected:
 
 - Perform exploratory data analysis on the dataset.
 - Propose 5 different hypothesis tests related to the dataset. At least use 3 different tests.
