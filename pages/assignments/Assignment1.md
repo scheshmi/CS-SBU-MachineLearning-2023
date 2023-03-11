@@ -75,9 +75,9 @@ In this part, you are going to work with the **[News Popularity Prediction](http
 - Try using GridSearchCV with RandomizedSearchCV to tune your model’s hyperparameters. ***(Extra Point)***
 - Apply the feature selection methods that you have implemented in the above sections.
 - Get familiar with and implement the following loss functions from scratch and utilize them with a Linear Regression model and discuss their effect on the performance of the model. ***(Extra Point)***
-- Absolute Error
-- Epsilon-sensetive error
-- Huber
+  *   Absolute Error
+  *   Epsilon-sensetive error
+  *   Huber
 
 **Exercise 13 *(Extra Point)***
 
