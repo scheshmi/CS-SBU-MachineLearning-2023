@@ -37,11 +37,11 @@ Why would you want to use:
 
 **Exercise 5**
 
-Implement Linear Regression with **Mean Absolute Error** as the cost function from scratch. Compare your results with the Linear Regression module of **Scikit-Learn**.
+Implement Linear Regression with **Mean Absolute Error** as the cost function from scratch. Compare your results with the Linear Regression module of **Scikit-Learn**. Apply the model on **[Diabetes dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)**.
 
 **Exercise 6**
 
-Implement Linear Regression using the normal equation as the training algorithm from scratch.
+Implement Linear Regression using the normal equation as the training algorithm from scratch. Apply the model on **[Diabetes dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)**.
 
 **Exercise 7**
 
