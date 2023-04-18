@@ -19,7 +19,7 @@ The splitting criterion is used to determine the best way to split the data at e
 
     $$IG(S,A)=H(S)−H(S∣A)$$
     
-    where $$S$$ is the set of examples at the current node, $$A$ is the feature to split on, $$H(S)$$ is the entropy of the target variable at node $$S$$, and $$H(S|A)$$ is the conditional entropy of the target variable given feature $$A$$.
+    where $$S$$ is the set of examples at the current node, $$A$$ is the feature to split on, $$H(S)$$ is the entropy of the target variable at node $$S$$, and $$H(S|A)$$ is the conditional entropy of the target variable given feature $$A$$.
 2. Gini impurity (CART algorithm):
 
    $$Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$$
