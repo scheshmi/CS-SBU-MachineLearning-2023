@@ -378,9 +378,3 @@ With this simple example, we see that there is not a single value that is optima
 ## References
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition
 - Machine learning in Python with scikit-learn
-
-
-
-```python
-
-```
