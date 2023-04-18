@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Assignment 2
 nav_order: 2
@@ -6,9 +6,12 @@ has_children: false
 parent: Assignments
 permalink: /assignments/Assignment2
 ---
+
 **Machine Learning**
 
-2nd Assignment - Shahid Beheshti University April 18, 2023
+2nd Assignment - Shahid Beheshti University
+
+April 18, 2023
 
 **Due date: May 5th**
 
