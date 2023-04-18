@@ -8,7 +8,7 @@ has_children: false
 permalink: /lectures/Tree-Based Models/Decision Tree
 ---
 
-# Decision Tree
+# Decision Trees
 
 A decision tree is a hierarchical model that represents decisions and their possible outcomes. It is a popular machine learning algorithm that can be used for both classification and regression tasks. The basic idea behind decision trees is to recursively partition the feature space into smaller and smaller regions until each region contains a homogeneous set of examples with respect to the target variable. The algorithm uses a splitting criterion to determine which feature to split on and at what threshold.
 
@@ -17,21 +17,19 @@ A decision tree is a hierarchical model that represents decisions and their poss
 The splitting criterion is used to determine the best way to split the data at each node of the tree. There are several splitting criteria that can be used, including:
 1. Information gain (ID3 algorithm):
 
-    $$IG(S,A)=H(S)−H(S∣A)$$
+    $IG(S,A)=H(S)−H(S∣A)$
     
-    where $S$ is the set of examples at the current node, $$A$$ is the feature to split on, $$H(S)$$ is the entropy of the target variable at node $$S$$, and         $$H(S|A)$$ is the conditional entropy of the target variable given feature $$A$$.
-    
+    where $S$ is the set of examples at the current node, $A$ is the feature to split on, $H(S)$ is the entropy of the target variable at node $S$, and $H(S|A)$ is the conditional entropy of the target variable given feature $A$.
 2. Gini impurity (CART algorithm):
 
-   $$Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$$
+   $Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$
 
-    where $$S$$ is the set of examples at the current node, $$|Y|$$ is the number of classes, and $$p_k$$ is the proportion of examples in class $$k$$.
-    
+    where $S$ is the set of examples at the current node, $|Y|$ is the number of classes, and $p_k$ is the proportion of examples in class $k$.
 3. Variance reduction:
 
-   $$Var(S) = \frac{1}{N}∑_{k=1}^{N} (y_i - \bar{y})^2$$
+   $Var(S) = \frac{1}{N}∑_{k=1}^{N} (y_i - \bar{y})^2$
 
-   where $$S$$ is the set of examples at the current node, $$N$$ is the number of examples, $$y_i$$ is the target variable for example $$i$$, and $$\bar{y}$$ is the mean target variable for the examples in $$S$$.
+   where $S$ is the set of examples at the current node, $N$ is the number of examples, $y_i$ is the target variable for example $i$, and $\bar{y}$ is the mean target variable for the examples in $S$.
 
 ## Building the Tree
 
@@ -95,6 +93,9 @@ tree.fit(data_train, target_train)
 
 
 
+<style>#sk-container-id-2 {color: black;background-color: white;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier(max_depth=1)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(max_depth=1)</pre></div></div></div></div></div>
+
+
 
 
 ```python
@@ -114,7 +115,7 @@ _ = plt.title("Decision boundary using a decision tree")
 
 
     
-![image](Decision%20Tree_files/Decision%20Tree_15_0.png)
+![png](DecisionTree_files/DecisionTree_15_0.png)
     
 
 
@@ -131,7 +132,7 @@ _ = plot_tree(tree, feature_names=culmen_columns,
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_17_0.png)
+![png](DecisionTree_files/DecisionTree_17_0.png)
     
 
 
@@ -157,7 +158,7 @@ _ = plt.title("Probability to belong to a penguin class")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_21_0.png)
+![png](DecisionTree_files/DecisionTree_21_0.png)
     
 
 
@@ -196,7 +197,7 @@ _ = plt.title("Illustration of the regression dataset")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_27_0.png)
+![png](DecisionTree_files/DecisionTree_27_0.png)
     
 
 
@@ -232,7 +233,7 @@ _ = plt.title("Prediction function using a DecisionTreeRegressor")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_32_0.png)
+![png](DecisionTree_files/DecisionTree_32_0.png)
     
 
 
@@ -248,7 +249,7 @@ _ = plot_tree(tree, feature_names=feature_name, ax=ax)
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_34_0.png)
+![png](DecisionTree_files/DecisionTree_34_0.png)
     
 
 
@@ -270,7 +271,7 @@ _ = plt.title("Prediction function using a DecisionTreeRegressor")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_37_0.png)
+![png](DecisionTree_files/DecisionTree_37_0.png)
     
 
 
@@ -335,7 +336,7 @@ _ = plt.title(f"Shallow classification tree with max-depth of {max_depth}")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_45_0.png)
+![png](DecisionTree_files/DecisionTree_45_0.png)
     
 
 
@@ -350,7 +351,7 @@ _ = plt.title(f"Deep classification tree with max-depth of {max_depth}")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_46_0.png)
+![png](DecisionTree_files/DecisionTree_46_0.png)
     
 
 
@@ -370,7 +371,7 @@ _ = plt.title(f"Optimal depth found via CV: "
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_48_0.png)
+![png](DecisionTree_files/DecisionTree_48_0.png)
     
 
 
@@ -379,3 +380,9 @@ With this simple example, we see that there is not a single value that is optima
 ## References
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition
 - Machine learning in Python with scikit-learn
+
+
+
+```python
+
+```
