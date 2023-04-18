@@ -20,11 +20,13 @@ The splitting criterion is used to determine the best way to split the data at e
     $$IG(S,A)=H(S)−H(S∣A)$$
     
     where $S$ is the set of examples at the current node, $$A$$ is the feature to split on, $$H(S)$$ is the entropy of the target variable at node $$S$$, and         $$H(S|A)$$ is the conditional entropy of the target variable given feature $$A$$.
+    
 2. Gini impurity (CART algorithm):
 
    $$Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$$
 
     where $$S$$ is the set of examples at the current node, $$|Y|$$ is the number of classes, and $$p_k$$ is the proportion of examples in class $$k$$.
+    
 3. Variance reduction:
 
    $$Var(S) = \frac{1}{N}∑_{k=1}^{N} (y_i - \bar{y})^2$$
@@ -377,9 +379,3 @@ With this simple example, we see that there is not a single value that is optima
 ## References
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition
 - Machine learning in Python with scikit-learn
-
-
-
-```python
-
-```
