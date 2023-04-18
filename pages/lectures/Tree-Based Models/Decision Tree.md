@@ -17,19 +17,19 @@ A decision tree is a hierarchical model that represents decisions and their poss
 The splitting criterion is used to determine the best way to split the data at each node of the tree. There are several splitting criteria that can be used, including:
 1. Information gain (ID3 algorithm):
 
-    $IG(S,A)=H(S)−H(S∣A)$
+    $$IG(S,A)=H(S)−H(S∣A)$$
     
-    where $S$ is the set of examples at the current node, $A$ is the feature to split on, $H(S)$ is the entropy of the target variable at node $S$, and $H(S|A)$ is the conditional entropy of the target variable given feature $A$.
+    where $S$ is the set of examples at the current node, $$A$$ is the feature to split on, $$H(S)$$ is the entropy of the target variable at node $$S$$, and $$H(S|A)$$ is the conditional entropy of the target variable given feature $$A$$.
 2. Gini impurity (CART algorithm):
 
-   $Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$
+   $$Gini(S) = 1 - ∑_{k=1}^{|Y|} p_k^2$$
 
-    where $S$ is the set of examples at the current node, $|Y|$ is the number of classes, and $p_k$ is the proportion of examples in class $k$.
+    where $$S$$ is the set of examples at the current node, $$|Y|$$ is the number of classes, and $$p_k$$ is the proportion of examples in class $$k$$.
 3. Variance reduction:
 
-   $Var(S) = \frac{1}{N}∑_{k=1}^{N} (y_i - \bar{y})^2$
+   $$Var(S) = \frac{1}{N}∑_{k=1}^{N} (y_i - \bar{y})^2$$
 
-   where $S$ is the set of examples at the current node, $N$ is the number of examples, $y_i$ is the target variable for example $i$, and $\bar{y}$ is the mean target variable for the examples in $S$.
+   where $$S$$ is the set of examples at the current node, $$N$$ is the number of examples, $$y_i$$ is the target variable for example $$i$$, and $$\bar{y}$$ is the mean target variable for the examples in $$S$$.
 
 ## Building the Tree
 
