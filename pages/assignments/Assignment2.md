@@ -1,4 +1,4 @@
----
+9---
 layout: default
 title: Assignment 2
 nav_order: 2
@@ -13,7 +13,7 @@ permalink: /assignments/Assignment2
 
 April 18, 2023
 
-**Due date: May 5th**
+**Due date: May 9th**
 
 ***\*\* You are required to write a detailed report for implementation tasks. \*\****
 
