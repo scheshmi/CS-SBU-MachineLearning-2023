@@ -24,8 +24,8 @@ February 26, 2023
 - Ridge regression instead of plain linear regression (i.e., without any regularization)?
 - Lasso instead of ridge regression?
 - Elastic net instead of lasso regression?
-5. Implement Linear Regression with **Mean Absolute Error** as the cost function from scratch. Compare your results with the Linear Regression module of **Scikit-Learn**.
-5. Implement Linear Regression using the normal equation as the training algorithm from scratch.
+5. Implement Linear Regression with **Mean Absolute Error** as the cost function from scratch. Compare your results with the Linear Regression module of **Scikit-Learn**. Apply the model on **[Diabetes dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)**
+5. Implement Linear Regression using the normal equation as the training algorithm from scratch. Apply the model on **[Diabetes dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)**
 5. Compare bootstrapping with cross-validation. In which conditions we should use bootstrapping?
 5. Explain nested cross-validation and 5x2 cross-validation in detail and when we should use them.***(Extra Point)***
 9. How can we compare different models using statistical significance tests?***(Extra Point)***
