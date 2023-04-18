@@ -1,4 +1,14 @@
-# Decision Trees
+---
+layout: default
+title: Decision Tree
+parent: Tree-Based Models
+grand_parent: Lectures
+nav_order: 1
+has_children: false
+permalink: /lectures/Tree-Based Models/Decision Tree
+---
+
+# Decision Tree
 
 A decision tree is a hierarchical model that represents decisions and their possible outcomes. It is a popular machine learning algorithm that can be used for both classification and regression tasks. The basic idea behind decision trees is to recursively partition the feature space into smaller and smaller regions until each region contains a homogeneous set of examples with respect to the target variable. The algorithm uses a splitting criterion to determine which feature to split on and at what threshold.
 
