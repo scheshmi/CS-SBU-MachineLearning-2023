@@ -40,9 +40,9 @@ February 26, 2023
 - Try using GridSearchCV with RandomizedSearchCV to tune your model’s hyperparameters. ***(Extra Point)***
 - Apply the feature selection methods that you have implemented in the above sections.
 - Get familiar with and implement the following loss functions from scratch and utilize them with a Linear Regression model and discuss their effect on the performance of the model. ***(Extra Point)***
-- Absolute Error
-- Epsilon-sensetive error
-- Huber
+  - Absolute Error
+  - Epsilon-sensetive error
+  - Huber
 13. Implement batch gradient descent with early stopping for *softmax regression* from scratch. Use it on a classification task on the [Penguins dataset](https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv).***(Extra Point)***
 
 **Good Luck!**
