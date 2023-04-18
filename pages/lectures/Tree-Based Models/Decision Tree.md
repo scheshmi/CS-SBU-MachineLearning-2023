@@ -114,7 +114,7 @@ _ = plt.title("Decision boundary using a decision tree")
 
 
     
-![png](Decision%20Tree_files/Decision%20Tree_15_0.png)
+![image](Decision%20Tree_files/Decision%20Tree_15_0.png)
     
 
 
