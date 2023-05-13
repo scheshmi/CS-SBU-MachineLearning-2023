@@ -24,9 +24,7 @@ May 12, 2023
 1. How can clustering be used to improve the accuracy of the linear regression model?
 1. How is entropy used as a clustering validation measure?
 1. What is label propagation? Why would you implement it, and how? **(Extra Point)**
-8. You are going to work on the [Supermarket dataset for predictive marketing](https://www.kaggle.com/datasets/hunter0007/ecommerce-dataset-for-predictive-marketing-2023)
-
-. Your task is to use clustering to segment the customers into distinct groups based on their shopping behavior and demographics.
+8. You are going to work on the [Supermarket dataset for predictive marketing](https://www.kaggle.com/datasets/hunter0007/ecommerce-dataset-for-predictive-marketing-2023) . Your task is to use clustering algorithms to segment the customers into distinct groups based on their shopping behavior and demographics.
 
 - Explore and preprocess the dataset. This may involve handling categorical variables and normalizing or scaling numerical features and feature engineering.
 - Use K-means clustering to identify the optimal number of clusters. Experiment with different values of K and use metrics such as the elbow method and silhouette score to evaluate the performance of the clustering.
