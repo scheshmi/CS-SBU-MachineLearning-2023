@@ -52,7 +52,7 @@ PCA identifies the primary axis that captures the most variance in the training 
 
 ### How can you find the principal components of a training set?
 
-There is a widely used matrix factorization method called singular value decomposition (SVD) exists, which can break down the training set matrix $$X$$ into the product of three matrices: $$$U \Sigma V^T$$$. Among these matrices, $$V$$ contains the unit vectors that represent the principal components sought in the analysis.
+There is a widely used matrix factorization method called singular value decomposition (SVD) exists, which can break down the training set matrix $$X$$ into the product of three matrices: $$U \Sigma V^T$$. Among these matrices, $$V$$ contains the unit vectors that represent the principal components sought in the analysis.
 
 ### Projecting Down to d Dimensions
 
