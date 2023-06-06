@@ -66,11 +66,22 @@ You are also required to write a detailed report on your implementation and the 
 
     [https://medium.com/@eskandar.sahel/recommender-systems-best-practices-a5962ae1b 560](https://medium.com/@eskandar.sahel/recommender-systems-best-practices-a5962ae1b560)
 
+
     <https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada>
+    
 
-    [https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-1- algorithms-evaluation-and-cold-start-6f696683d0ed ](https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-1-algorithms-evaluation-and-cold-start-6f696683d0ed)[https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-2- deep-recommendation-sequence-prediction-automl-f134bc79d66b ](https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-2-deep-recommendation-sequence-prediction-automl-f134bc79d66b)[https://medium.com/berlin-tech-blog/deep-learning-for-recommender-systems-48c786a2 0e1a](https://medium.com/berlin-tech-blog/deep-learning-for-recommender-systems-48c786a20e1a)
+    [https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-1- algorithms-evaluation-and-cold-start-6f696683d0ed ](https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-1-algorithms-evaluation-and-cold-start-6f696683d0ed)
+    
+    [https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-2- deep-recommendation-sequence-prediction-automl-f134bc79d66b ](https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-2-deep-recommendation-sequence-prediction-automl-f134bc79d66b)
+    
+    [https://medium.com/berlin-tech-blog/deep-learning-for-recommender-systems-48c786a2 0e1a](https://medium.com/berlin-tech-blog/deep-learning-for-recommender-systems-48c786a20e1a)
 
-    [https://heartbeat.comet.ml/recommender-systems-with-python-part-i-content-based-filteri ng-5df4940bd831 ](https://heartbeat.comet.ml/recommender-systems-with-python-part-i-content-based-filtering-5df4940bd831)[https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filterin g-k-nearest-neighbors-algorithm-c8dcd5fd89b2 ](https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filtering-k-nearest-neighbors-algorithm-c8dcd5fd89b2)[https://heartbeat.comet.ml/recommender-systems-with-python-part-iii-collaborative-filteri ng-singular-value-decomposition-5b5dcb3f242b](https://heartbeat.comet.ml/recommender-systems-with-python-part-iii-collaborative-filtering-singular-value-decomposition-5b5dcb3f242b)
+
+    [https://heartbeat.comet.ml/recommender-systems-with-python-part-i-content-based-filteri ng-5df4940bd831 ](https://heartbeat.comet.ml/recommender-systems-with-python-part-i-content-based-filtering-5df4940bd831)
+    
+    [https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filterin g-k-nearest-neighbors-algorithm-c8dcd5fd89b2 ](https://heartbeat.comet.ml/recommender-systems-with-python-part-ii-collaborative-filtering-k-nearest-neighbors-algorithm-c8dcd5fd89b2)
+    
+    [https://heartbeat.comet.ml/recommender-systems-with-python-part-iii-collaborative-filteri ng-singular-value-decomposition-5b5dcb3f242b](https://heartbeat.comet.ml/recommender-systems-with-python-part-iii-collaborative-filtering-singular-value-decomposition-5b5dcb3f242b)
 
 - **Course on Recommender systems**
 
