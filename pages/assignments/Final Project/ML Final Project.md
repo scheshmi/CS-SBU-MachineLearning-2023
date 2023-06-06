@@ -88,7 +88,7 @@ You are also required to write a detailed report on your implementation and the 
    <https://developers.google.com/machine-learning/recommendation>
 - **Evaluation metrics**
 
-  https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
+  <https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093>
 
 - **User Interface Design**
   - **Gradio:**
